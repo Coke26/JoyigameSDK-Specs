@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license = { :type => 'Proprietary', :text => 'Copyright (c) Joyigame. All rights reserved.' }
   s.author = { 'Joyigame' => 'sdk@joyigame.com' }
   s.platform = :ios, '15.0'
-  s.source = { :http => 'https://github.com/Coke26/JoyigameSDK-Releases/releases/download/joyigame-sdk-v1.0.0/JoyigameSDK-1.0.0-4256586e4b0b3b4090cc062d668f5913167a2543da7281b2a05624413a401bbe.zip', :sha256 => '4256586e4b0b3b4090cc062d668f5913167a2543da7281b2a05624413a401bbe' }
+  s.source = { :http => 'https://github.com/Coke26/JoyigameSDK-Releases/releases/download/joyigame-sdk-v1.0.0/JoyigameSDK-1.0.0-583ab2b108b9dabde5cc48abb88ce62c762420e55c3e1bc49141b5dff74b4b4b.zip', :sha256 => '583ab2b108b9dabde5cc48abb88ce62c762420e55c3e1bc49141b5dff74b4b4b' }
   s.vendored_frameworks = 'JoyigameSDK-1.0.0/JoyigameSDK.xcframework'
   s.resources = ['JoyigameSDK-1.0.0/JoyigameSDKResources.bundle', 'JoyigameSDK-1.0.0/GoogleSignIn.bundle']
   s.source_files = 'JoyigameSDK-1.0.0/JoyigameSDKSwiftRuntimeMarker.swift'
